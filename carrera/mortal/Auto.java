@@ -5,6 +5,12 @@ public class Auto {
     private String patente;
     private String color;
     private double combustible=50;
+    private Rueda rueda1;
+    private Rueda rueda2;
+    private Rueda rueda3;
+    private Rueda rueda4;
+
+
     public Auto(String patente, String color) {
         this.patente = patente;
         this.color = color;
